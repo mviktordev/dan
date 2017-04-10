@@ -832,21 +832,19 @@ section.biography.oe .three p, section.biography.oe .four p {
     padding: 0 5%;
 }
 
-.new.slider ul li {
-    list-style: none;
-}
-
 .new.slider h2 {
     margin-top: 150px;
 }
 
-.new.slider ul li a {
+.new.slider ul li {
     color: #7b6d86;
-    display: inline-block;
+    list-style: none;
     height: 50px;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 300;
+    display: block !important;
+    cursor: pointer;
 }
 
 .new.slider ul {
@@ -855,14 +853,14 @@ section.biography.oe .three p, section.biography.oe .four p {
     max-width: 600px;
 }
 
-.new.slider ul li a::before {
+.new.slider ul li::before {
     content: "—  ";
     font-weight: 900;
     color: #7b6d86;
     font-family: "Comic Sans MS", sans-serif;
 }
 
-.new.slider ul li:hover a::before {
+.new.slider ul li:hover::before {
     content: "—  ";
     font-weight: 900;
     color: #d89fff;
@@ -2128,7 +2126,7 @@ label.label-success + br + label.label-success + br + label.label-success + br +
     color: black;
 }
 
-.new.slider ul li a:hover {
+.new.slider ul li:hover {
     text-decoration: none;
     color: #d89fff;
 }
@@ -2939,44 +2937,6 @@ section.biography.oe .three p, section.biography.oe .four p {
     transition: 0.5s;
     color: #987192;
 }
-
-.new.slider .col-6:first-child {
-    background: url("img/white-line-repeat.png");
-    background-position: right;
-
-}
-.new.slider {
-    padding: 0 5%;
-}
-.new.slider ul li {
-    list-style: none;
-}
-
-.new.slider h2 {
-    margin-top: 150px;
-}
-
-.new.slider ul li a {
-    color: #7b6d86;
-    display: inline-block;
-    height: 50px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.new.slider ul {
-    padding: 0;
-    margin-top: 65px;
-    max-width: 600px;
-}
-
-.new.slider ul li a::before {
-    content: "—  ";
-    font-weight: 900;
-    color: #7b6d86;
-}
-
 
 section.first-screen {
     background-color: #FFEFFA;
