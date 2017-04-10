@@ -93,25 +93,67 @@ Template Name: Обучение
                 <div class="col-6 text-slider">
                     <h2>Чему мы обучаем</h2>
                     <ul>
-                        <li><a href="#">Привлечение клиентов</a></li>
-                        <li><a href="#">Сокращение времени на клиента</a></li>
-                        <li><a href="#">Повышение качества</a></li>
-                        <li><a href="#">Сокращение затрат на материалы</a></li>
-                        <li><a href="#">Обучаем работать с любыми материалами и инструментами</a></li>
-                        <li><a href="#">Правильным до продажам</a></li>
+                        <li id="slide-1">Привлечение клиентов</li>
+                        <li id="slide-2">Сокращение времени на клиента</li>
+                        <li id="slide-3">Повышение качества</li>
+                        <li id="slide-4">Сокращение затрат на материалы</li>
+                        <li id="slide-5">Обучаем работать с любыми материалами и инструментами</li>
+                        <li id="slide-6">Правильным до продажам</li>
                     </ul>
                 </div>
                 <div class="col-6 nopadding">
-                    <div class="hover-img"
-                         style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-1.jpg)">
-                        <div class="number-img">
-                            <p>0.1/<span>0.6</span></p>
+                    <div id="what-we-do">
+                        <div>
+                            <div class="hover-img"
+                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-1.jpg)">
+                                <div class="number-img">
+                                    <p>0.1/<span>0.6</span></p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="next-img"
-                             style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-2.jpg)">
-                            <div class="filter-img"></div>
+                        <div>
+                            <div class="hover-img"
+                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-2.jpg)">
+                                <div class="number-img">
+                                    <p>0.2/<span>0.6</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="hover-img"
+                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-1.jpg)">
+                                <div class="number-img">
+                                    <p>0.3/<span>0.6</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="hover-img"
+                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-2.jpg)">
+                                <div class="number-img">
+                                    <p>0.4/<span>0.6</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="hover-img"
+                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-1.jpg)">
+                                <div class="number-img">
+                                    <p>0.5/<span>0.6</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="hover-img"
+                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-2.jpg)">
+                                <div class="number-img">
+                                    <p>0.6/<span>0.6</span></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>

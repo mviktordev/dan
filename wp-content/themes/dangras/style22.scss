@@ -12,50 +12,71 @@ section.biography {
   .text-slider {
     padding: 0 5%;
   }
-  .hover-img {
-    background-repeat: no-repeat;
-    background-size: 640px 700px;
-    height: 700px;
-    .number-img {
-      align-items: center;
-      background: #eba0ff none repeat scroll 0 0;
-
-      display: inline-flex;
-      height: 150px;
-      justify-content: center;
-      width: 150px;
-      p {
-        margin: 0;
-        color: #ffffff;
-        line-height: 1;
-        font-family: oswald, sans-serif;
-        font-size: 38px;
-        font-weight: 300;
-        span {
-          font-size: 30px;
-          line-height: 30px;
+  .slick-slide {
+    .hover-img {
+      filter: grayscale(100%) !important;
+      -webkit-filter: grayscale(100%) !important;
+      .number-img {
+        display: none !important;
+      }
+    }
+    &.slick-active {
+      .hover-img {
+        filter: grayscale(0) !important;
+        -webkit-filter: grayscale(0) !important;
+        .number-img {
+          display: inline-flex !important;
         }
       }
     }
-    .next-img {
-      height: 100%;
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 80px;
-      -webkit-filter: grayscale(100%);
-      transition: 0.5s;
-      &:hover {
-        filter: grayscale(0%);
-        width: 160px;
-        transition: 0.5s;
-      }
-      .filter-img {
-        background: #eba0ff none repeat scroll 0 0;
-        height: 100%;
-        opacity: 0.2;
-        width: 100%;
 
+    .hover-img {
+      background-repeat: no-repeat;
+      background-size: 640px 700px;
+      height: 700px;
+      width: 640px;
+
+      .number-img {
+        align-items: center;
+        background: #eba0ff none repeat scroll 0 0;
+
+        display: inline-flex;
+        height: 150px;
+        justify-content: center;
+        width: 150px;
+        p {
+          margin: 0;
+          color: #ffffff;
+          line-height: 1;
+          font-family: oswald, sans-serif;
+          font-size: 38px;
+          font-weight: 300;
+          span {
+            font-size: 30px;
+            line-height: 30px;
+          }
+        }
+      }
+      .next-img {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 80px;
+        -webkit-filter: grayscale(100%);
+        transition: 0.5s;
+        &:hover {
+          filter: grayscale(0%);
+          width: 160px;
+          transition: 0.5s;
+        }
+        .filter-img {
+          background: #eba0ff none repeat scroll 0 0;
+          height: 100%;
+          opacity: 0.2;
+          width: 100%;
+
+        }
       }
     }
   }

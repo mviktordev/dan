@@ -9,28 +9,39 @@ section.biography {
   padding: 0 !important; }
   .new.slider .text-slider {
     padding: 0 5%; }
-  .new.slider .hover-img {
+  .new.slider .slick-slide .hover-img {
+    filter: grayscale(100%) !important;
+    -webkit-filter: grayscale(100%) !important; }
+    .new.slider .slick-slide .hover-img .number-img {
+      display: none !important; }
+  .new.slider .slick-slide.slick-active .hover-img {
+    filter: grayscale(0) !important;
+    -webkit-filter: grayscale(0) !important; }
+    .new.slider .slick-slide.slick-active .hover-img .number-img {
+      display: inline-flex !important; }
+  .new.slider .slick-slide .hover-img {
     background-repeat: no-repeat;
     background-size: 640px 700px;
-    height: 700px; }
-    .new.slider .hover-img .number-img {
+    height: 700px;
+    width: 640px; }
+    .new.slider .slick-slide .hover-img .number-img {
       align-items: center;
       background: #eba0ff none repeat scroll 0 0;
       display: inline-flex;
       height: 150px;
       justify-content: center;
       width: 150px; }
-      .new.slider .hover-img .number-img p {
+      .new.slider .slick-slide .hover-img .number-img p {
         margin: 0;
         color: #ffffff;
         line-height: 1;
         font-family: oswald, sans-serif;
         font-size: 38px;
         font-weight: 300; }
-        .new.slider .hover-img .number-img p span {
+        .new.slider .slick-slide .hover-img .number-img p span {
           font-size: 30px;
           line-height: 30px; }
-    .new.slider .hover-img .next-img {
+    .new.slider .slick-slide .hover-img .next-img {
       height: 100%;
       position: absolute;
       right: 0;
@@ -38,11 +49,11 @@ section.biography {
       width: 80px;
       -webkit-filter: grayscale(100%);
       transition: 0.5s; }
-      .new.slider .hover-img .next-img:hover {
+      .new.slider .slick-slide .hover-img .next-img:hover {
         filter: grayscale(0%);
         width: 160px;
         transition: 0.5s; }
-      .new.slider .hover-img .next-img .filter-img {
+      .new.slider .slick-slide .hover-img .next-img .filter-img {
         background: #eba0ff none repeat scroll 0 0;
         height: 100%;
         opacity: 0.2;

@@ -60,7 +60,43 @@ $(document).on('ready', function () {
         appendDots: '.dots-slider2',
         autoplaySpeed: 2000
     });
+    $("#what-we-do").slick({
+        infinite: true,
+        dots: true,
+        appendArrows: '.arrow-slick-cool3',
+        speed: 300,
+        slidesToShow: 1,
+        prevArrow: '',
+        nextArrow: '',
+        appendDots: '.dots-slider3',
+        autoplaySpeed: 2000,
+        variableWidth: true
+    });
 
+    $('#slide-1').on('click', function () {
+        var slideIndex = $(this).index();
+        $('#what-we-do').slick('slickGoTo', 0);
+    });
+    $('#slide-2').on('click', function () {
+        var slideIndex = $(this).index();
+        $('#what-we-do').slick('slickGoTo', 1);
+    });
+    $('#slide-3').on('click', function () {
+        var slideIndex = $(this).index();
+        $('#what-we-do').slick('slickGoTo', 2);
+    });
+    $('#slide-4').on('click', function () {
+        var slideIndex = $(this).index();
+        $('#what-we-do').slick('slickGoTo', 3);
+    });
+    $('#slide-5').on('click', function () {
+        var slideIndex = $(this).index();
+        $('#what-we-do').slick('slickGoTo', 4);
+    });
+    $('#slide-6').on('click', function () {
+        var slideIndex = $(this).index();
+        $('#what-we-do').slick('slickGoTo', 5);
+    });
 
     $(".wpcf7-form").validate({
         errorClass: 'error',
