@@ -262,15 +262,19 @@ Template Name: Обучение
                         <div>
                             <div class="slider-style-my">
                                 <div class="head-shop">
-                                    <p class="price">
-                                        <sup>₽</sup>1.500
-                                    </p>
-                                    <h5 class="header-price">
-                                        Трудные случае <br>
-                                        при маникюре
-                                    </h5>
-                                    <div class="by-shop">
-                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/shop-img-1.png" alt="">
+                                    <div class="back-img"
+                                         style="background-image: none">
+                                        <p class="price">
+                                            <sup>₽</sup>1.500
+                                        </p>
+                                        <h5 class="header-price">
+                                            Трудные случае <br>
+                                            при маникюре
+                                        </h5>
+                                        <div class="by-shop">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="slider-content">
@@ -301,6 +305,52 @@ Template Name: Обучение
                                 </div>
                             </div>
                         </div>
+                        <div>
+                            <div class="slider-style-my blue-style">
+                                <div class="head-shop">
+                                    <div class="back-img"
+                                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/shop-img-2.png')">
+                                        <p class="price">
+                                            <sup>₽</sup>1.500
+                                        </p>
+                                        <h5 class="header-price">
+                                            Трудные случае <br>
+                                            при маникюре
+                                        </h5>
+                                        <div class="by-shop">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-content">
+                                    <div class="check">
+                                        <p>Комбинированный маникюр, аппарат/ножницы</p>
+                                        <div class="line">
+                                            <div class="progres" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="check">
+                                        <p>Комбинированный маникюр, аппарат/ножницы</p>
+                                        <div class="line">
+                                            <div class="progres" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="check">
+                                        <p>Комбинированный маникюр, аппарат/ножницы</p>
+                                        <div class="line">
+                                            <div class="progres" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="check">
+                                        <p>Комбинированный маникюр, аппарат/ножницы</p>
+                                        <div class="line">
+                                            <div class="progres" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
