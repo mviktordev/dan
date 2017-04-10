@@ -87,25 +87,5 @@ Template Name: Shop-page
         </div>
 
     </section>
-    <section class="new slider">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-6">
-                    <h2>Чему мы обучаем</h2>
-                    <ul>
-                        <li><a href="#">Привлечение клиентов</a></li>
-                        <li><a href="#">Сокращение времени на клиента</a></li>
-                        <li><a href="#">Повышение качества</a></li>
-                        <li><a href="#">Сокращение затрат на материалы</a></li>
-                        <li><a href="#">Обучаем работать с любыми материалами и инструментами</a></li>
-                        <li><a href="#">Правильным до продажам</a></li>
-                    </ul>
-                </div>
-                <div class="col-6">
-
-                </div>
-            </div>
-        </div>
-    </section>
 
 <?php get_footer(); ?>

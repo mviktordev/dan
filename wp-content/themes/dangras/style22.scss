@@ -14,16 +14,14 @@ section.biography {
   }
   .slick-slide {
     .hover-img {
-      filter: grayscale(100%) !important;
-      -webkit-filter: grayscale(100%) !important;
+      opacity: 0.4;
       .number-img {
         display: none !important;
       }
     }
     &.slick-active {
       .hover-img {
-        filter: grayscale(0) !important;
-        -webkit-filter: grayscale(0) !important;
+        opacity: 1;
         .number-img {
           display: inline-flex !important;
         }
@@ -298,9 +296,7 @@ button:focus, * {
 
 .bullets {
   height: 1450px;
-  background: grey;
-  background: url("img/bg-bullet.png");
-  background-position: center top;
+  background: rgba(0, 0, 0, 0) url("img/bg-bullet.png") no-repeat scroll center top / cover ;
   .col-6 {
     height: 250px;
     padding-right: 30px;
@@ -319,31 +315,44 @@ button:focus, * {
     p {
     }
   }
+  .ico-bullet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .firstb {
     color: #fff;
     border-bottom: 1px solid #d689bf;
+    display: flex;
+    padding-left: 10%;
   }
   .secondb {
     border-bottom: 1px solid #ffc1f0;
     border-right: 1px solid #ffc1f0;
     color: #fff;
+    display: flex;
+    padding-left: 10%;
   }
   .thirdb {
-    border-top: 1px solid #ffc1f0;
-    border-left: 1px solid #d689bf;
-    color: #fff;
+    border-left: 1px solid rgb(214, 137, 191);
+    border-top: 1px solid rgb(255, 193, 240);
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 10%;
   }
   .fourb {
     border-top: 1px solid #d689bf;
     border-bottom: 1px solid #d689bf;
     color: #fff;
+    display: flex;
+    padding-left: 10%;
   }
   .content-bullet {
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    margin-left: 315px;
+    margin-left: 30px;
     padding-right: 60px;
   }
 
@@ -903,5 +912,24 @@ span {
         }
       }
     }
+  }
+}
+
+.master + section.biography {
+  background-color: rgb(255, 255, 255);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+
+.presentation {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+
+    text-align: center;
   }
 }

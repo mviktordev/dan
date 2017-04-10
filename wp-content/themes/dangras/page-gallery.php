@@ -3,9 +3,7 @@
 Template Name: Галерея
 */
 ?>
-
 <?php get_header(); ?>
-
     <header class="master online">
         <div class="container-fluid">
             <div class="row">
@@ -33,7 +31,8 @@ Template Name: Галерея
                             </div>
 
                             <a href="#" class="mouse">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/shop-page/mouse.png"" alt="" width="16px" height="24px">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/shop-page/mouse.png"" alt=""
+                                width="16px" height="24px">
                             </a>
 
                         </div>
@@ -69,18 +68,31 @@ Template Name: Галерея
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 numbers" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/bg-numbers.png); background-size: cover; min-height: 800px; height: 100vh">
-                    <div class="col-4 numb" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/one.png); background-size: 15%; background-repeat: no-repeat; background-position: left bottom;"><p>Гель лак
+                <div class="col-12 numbers"
+                     style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/bg-numbers.png); background-size: cover; min-height: 800px; height: 100vh">
+                    <div class="col-4 numb"
+                         style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/one.png); background-size: 15%; background-repeat: no-repeat; background-position: left bottom;">
+                        <p>Гель лак
                             <br>от <span class="cena">600г</span></p></div>
-                    <div class="col-4 numb" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/two.png); background-size: 22%; background-repeat: no-repeat; background-position: left bottom;"><p>Шеллак
-                        <br>от <span class="cena">300г</span></p></div>
-                    <div class="col-4 numb" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/three.png); background-size: 22%; background-repeat: no-repeat; background-position: left bottom;"><p>Ногтевая пластина
-                        <br> от <span class="cena">2000г</span></p></div>
-                    <div class="col-4 numb" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/four.png); background-size: 22%; background-repeat: no-repeat; background-position: left bottom;"><p>Дизайн ногтей
-                        <br> от <span class="cena">1000г</span></p></div>
-                    <div class="col-4 numb" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/five.png); background-size: 22%; background-repeat: no-repeat; background-position: left bottom;"><p>Ремонт ногтей
-                        <br> от <span class="cena">5000г</span></p></div>
-                    <div class="col-4 numb" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/six.png); background-size: 22%; background-repeat: no-repeat; background-position: left bottom;"><p>Еще что то</p></div>
+                    <div class="col-4 numb"
+                         style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/two.png); background-size: 22%; background-repeat: no-repeat; background-position: left bottom;">
+                        <p>Шеллак
+                            <br>от <span class="cena">300г</span></p></div>
+                    <div class="col-4 numb"
+                         style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/three.png); background-size: 22%; background-repeat: no-repeat; background-position: left bottom;">
+                        <p>Ногтевая пластина
+                            <br> от <span class="cena">2000г</span></p></div>
+                    <div class="col-4 numb"
+                         style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/four.png); background-size: 22%; background-repeat: no-repeat; background-position: left bottom;">
+                        <p>Дизайн ногтей
+                            <br> от <span class="cena">1000г</span></p></div>
+                    <div class="col-4 numb"
+                         style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/five.png); background-size: 22%; background-repeat: no-repeat; background-position: left bottom;">
+                        <p>Ремонт ногтей
+                            <br> от <span class="cena">5000г</span></p></div>
+                    <div class="col-4 numb"
+                         style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/six.png); background-size: 22%; background-repeat: no-repeat; background-position: left bottom;">
+                        <p>Еще что то</p></div>
 
                 </div>
             </div>
@@ -285,16 +297,14 @@ Template Name: Галерея
 
     </section>
 
-    <section class="presentation">
+    <section class="presentation"
+             style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/bg-pres.png);">
         <div class="container-fluid">
             <div class="row">
-                <div class="header-bg"
-                     style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/gallery/bg-pres.png); background-size: cover; min-height: 600px; height: 100vh">
-
+                <div class="header-bg">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-
                                 <div class="content">
                                     <h1>
                                         Скачайте презентацию авторских технологий <br>
@@ -302,22 +312,16 @@ Template Name: Галерея
                                     </h1>
                                     <p>Включает в себя описание технологий, портфолио <br>
                                         и полный прайс на все услуги
-
                                     </p>
-                                    <a href="#" class="butn-download"><img src="<?php echo get_template_directory_uri(); ?>/img/gallery/down-ic.png" alt="2">Скачать</a>
+                                    <a href="#" class="butn-download"><img
+                                                src="<?php echo get_template_directory_uri(); ?>/img/gallery/down-ic.png"
+                                                alt="2">Скачать</a>
                                 </div>
-
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-
 <?php get_footer(); ?>

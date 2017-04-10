@@ -121,7 +121,7 @@ Template Name: Обучение
                         </div>
                         <div>
                             <div class="hover-img"
-                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-1.jpg)">
+                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-3.jpg)">
                                 <div class="number-img">
                                     <p>0.3/<span>0.6</span></p>
                                 </div>
@@ -129,7 +129,7 @@ Template Name: Обучение
                         </div>
                         <div>
                             <div class="hover-img"
-                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-2.jpg)">
+                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-4.jpg)">
                                 <div class="number-img">
                                     <p>0.4/<span>0.6</span></p>
                                 </div>
@@ -137,7 +137,7 @@ Template Name: Обучение
                         </div>
                         <div>
                             <div class="hover-img"
-                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-1.jpg)">
+                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-5.jpg)">
                                 <div class="number-img">
                                     <p>0.5/<span>0.6</span></p>
                                 </div>
@@ -145,7 +145,7 @@ Template Name: Обучение
                         </div>
                         <div>
                             <div class="hover-img"
-                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-2.jpg)">
+                                 style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/img-edu-6.jpg)">
                                 <div class="number-img">
                                     <p>0.6/<span>0.6</span></p>
                                 </div>
@@ -163,8 +163,8 @@ Template Name: Обучение
         <div class="container-fluid">
             <div class="row"
                  style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/white-line-repeat-trancparent.png'); background-position: center center;">
-                <div class="col-12">
-                    <h2>Онлайн курсы</h2>
+                <div class="col-6">
+                    <h2 style="padding-left: 5%; margin-top: 78px">Онлайн курсы</h2>
                 </div>
                 <div class="slider-box col-12">
                     <div class="slick-slider slider">
@@ -320,7 +320,9 @@ Template Name: Обучение
                         readable content of a page when looking at its layout.</p>
                 </div>
                 <div class="col-6 firstb">
-                    <div class="ico-bullet"></div>
+                    <div class="ico-bullet">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/ico-edu-1.png" alt="">
+                    </div>
                     <div class="content-bullet">
                         <h3>Сертификат</h3>
                         <p>Вы получите сертификат мастера
@@ -328,7 +330,9 @@ Template Name: Обучение
                     </div>
                 </div>
                 <div class="col-6 secondb">
-                    <div class="ico-bullet"></div>
+                    <div class="ico-bullet">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/ico-edu-3.png" alt="">
+                    </div>
                     <div class="content-bullet">
                         <h3>Доступ</h3>
                         <p>Вы получите доступ в закрытую
@@ -336,7 +340,9 @@ Template Name: Обучение
                     </div>
                 </div>
                 <div class="col-6 thirdb">
-                    <div class="ico-bullet"></div>
+                    <div class="ico-bullet">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/ico-edu-2.png" alt="">
+                    </div>
                     <div class="content-bullet">
                         <h3>Знания</h3>
                         <p>Новые приобритённые знания
@@ -344,7 +350,9 @@ Template Name: Обучение
                     </div>
                 </div>
                 <div class="col-6 fourb">
-                    <div class="ico-bullet"></div>
+                    <div class="ico-bullet">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/ico-edu-4.png" alt="">
+                    </div>
                     <div class="content-bullet">
                         <h3>Возможность</h3>
                         <p>Не упустите возможность стать

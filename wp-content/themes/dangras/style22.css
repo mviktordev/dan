@@ -10,13 +10,11 @@ section.biography {
   .new.slider .text-slider {
     padding: 0 5%; }
   .new.slider .slick-slide .hover-img {
-    filter: grayscale(100%) !important;
-    -webkit-filter: grayscale(100%) !important; }
+    opacity: 0.4; }
     .new.slider .slick-slide .hover-img .number-img {
       display: none !important; }
   .new.slider .slick-slide.slick-active .hover-img {
-    filter: grayscale(0) !important;
-    -webkit-filter: grayscale(0) !important; }
+    opacity: 1; }
     .new.slider .slick-slide.slick-active .hover-img .number-img {
       display: inline-flex !important; }
   .new.slider .slick-slide .hover-img {
@@ -227,9 +225,7 @@ button:focus, * {
 
 .bullets {
   height: 1450px;
-  background: grey;
-  background: url("img/bg-bullet.png");
-  background-position: center top; }
+  background: transparent url("img/bg-bullet.png") no-repeat scroll center top/cover; }
   .bullets .col-6 {
     height: 250px;
     padding-right: 30px; }
@@ -241,27 +237,39 @@ button:focus, * {
     justify-content: center;
     padding-left: 132px;
     padding-right: 30px; }
+  .bullets .ico-bullet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
   .bullets .firstb {
     color: #fff;
-    border-bottom: 1px solid #d689bf; }
+    border-bottom: 1px solid #d689bf;
+    display: flex;
+    padding-left: 10%; }
   .bullets .secondb {
     border-bottom: 1px solid #ffc1f0;
     border-right: 1px solid #ffc1f0;
-    color: #fff; }
+    color: #fff;
+    display: flex;
+    padding-left: 10%; }
   .bullets .thirdb {
-    border-top: 1px solid #ffc1f0;
     border-left: 1px solid #d689bf;
-    color: #fff; }
+    border-top: 1px solid #ffc1f0;
+    color: white;
+    display: flex;
+    padding-left: 10%; }
   .bullets .fourb {
     border-top: 1px solid #d689bf;
     border-bottom: 1px solid #d689bf;
-    color: #fff; }
+    color: #fff;
+    display: flex;
+    padding-left: 10%; }
   .bullets .content-bullet {
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    margin-left: 315px;
+    margin-left: 30px;
     padding-right: 60px; }
   .bullets .form-block {
     border-top: 1px solid #ffc1f0;
@@ -686,5 +694,20 @@ span.active {
       font-size: 16px;
       line-height: 23px !important;
       font-weight: 300; }
+
+.master + section.biography {
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px; }
+
+.presentation {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .presentation h1 {
+    text-align: center; }
 
 /*# sourceMappingURL=style22.css.map */

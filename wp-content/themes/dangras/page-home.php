@@ -3,9 +3,7 @@
 Template Name: Главная
 */
 ?>
-
 <?php get_header(); ?>
-
     <header>
         <div class="container-fluid">
             <div class="row ">
@@ -14,17 +12,16 @@ Template Name: Главная
                 </video>
                 <div class="header-bg"
                      style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/video-bg.png); position: relative; z-index: 0;">
-
                     <?php get_template_part('navigation'); ?>
                     <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"" alt="" class="logo">
                     <div class="content">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/logo-name-header.png" alt="">
                     </div>
                     <div class="but">
-                        <a href="#" class="butn butn1">
+                        <a href="/galereya/" class="butn butn1">
                             Запись на маникюр
                         </a>
-                        <a href="#" class="butn butn2">
+                        <a href="/obuchenie/" class="butn butn2">
                             обучение маникюру
                         </a>
                     </div>
@@ -49,7 +46,7 @@ Template Name: Главная
                     <div class="service">
                         <h5>Онлайн<br>
                             обучение</h5>
-                        <a href="#" class="arrow">
+                        <a href="http://dangras.ru/obuchenie/" class="arrow">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/arrow-serv.png" alt="">
                         </a>
                     </div>
@@ -58,7 +55,7 @@ Template Name: Главная
                     <div class="service">
                         <h5>Живые мастер-<br>
                             классы в городах</h5>
-                        <a href="#" class="arrow">
+                        <a href="http://dangras.ru/master-klassy/" class="arrow">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/arrow-serv.png" alt="">
                         </a>
                     </div>
@@ -66,7 +63,7 @@ Template Name: Главная
                 <div class="col-3">
                     <div class="service">
                         <h5>Магазин</h5>
-                        <a href="#" class="arrow">
+                        <a href="http://dangras.ru/magazin/" class="arrow">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/arrow-serv.png" alt="">
                         </a>
                     </div>
@@ -74,7 +71,6 @@ Template Name: Главная
             </div>
         </div>
     </section>
-
     <script>
         $('.services .col-3:nth-child(1)').mouseenter(
             function () {
@@ -137,15 +133,12 @@ Template Name: Главная
                 $('.services .col-3:nth-child(4) .arrow').css('background', 'white');
             });
     </script>
-
-
     <section class="biography">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6 first" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/precident.png')">
-
+                <div class="col-6 first"
+                     style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/precident.png')">
                 </div>
-
                 <div class="col-6 second"
                      style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/line-home.png'); background-position: center top;
                              background-repeat: no-repeat;
@@ -166,7 +159,6 @@ Template Name: Главная
             </div>
         </div>
     </section>
-
     <section class="galery">
         <div class="container-fluid">
             <div class="row">
@@ -260,12 +252,11 @@ Template Name: Главная
                 <div class="col-3 bg-galery link">
                     <a href="#">
                         <p>Показать все</p>
-                        <a href="#" class="bounce-btn">
+                        <a href="/galereya/" class="bounce-btn">
                             <i class="fa fa-arrow-down" aria-hidden="true"></i>
                         </a>
                     </a>
                 </div>
-
                 <div class="col-3 bg-galery">
                     <div class="galery-hover">
                         <h4>Lorem ipsum</h4>
@@ -289,75 +280,63 @@ Template Name: Главная
             </div>
         </div>
     </section>
-
     <style>
         section.galery .row:nth-child(1) .bg-galery:nth-child(1) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/img01.jpg");
         }
-
         section.galery .row:nth-child(1) .bg-galery:nth-child(2) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/img02.jpg");
         }
-
         section.galery .row:nth-child(1) .bg-galery:nth-child(3) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/title-bg.jpg");
             background-size: 250px 250px;
-
         }
-
         section.galery .row:nth-child(1) .bg-galery:nth-child(3):hover {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/title-bg.jpg");
             background-size: 250px 250px;
         }
-
         section.galery .row:nth-child(1) .bg-galery:nth-child(4) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/img04.jpg");
         }
-
         section.galery .row:nth-child(2) .bg-galery:nth-child(1) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/img05.jpg");
         }
-
         section.galery .row:nth-child(2) .bg-galery:nth-child(2) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/img06.jpg");
         }
-
         section.galery .row:nth-child(2) .bg-galery:nth-child(3) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/img07.jpg");
         }
-
         section.galery .row:nth-child(2) .bg-galery:nth-child(4) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/img08.jpg");
         }
-
         section.galery .row:nth-child(3) .bg-galery:nth-child(1) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/img09.jpg");
         }
-
         section.galery .row:nth-child(3) .bg-galery:nth-child(2) {
             background-color: #f6fcae;
         }
-
         section.galery .row:nth-child(3) .bg-galery:nth-child(3) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/img11.jpg");
         }
-
         section.galery .row:nth-child(3) .bg-galery:nth-child(4) {
             background-image: url("<?php echo get_template_directory_uri(); ?>/img/img12.jpg");
         }
     </style>
-
-
     <section class="bolls"
              style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/pink-bg.png); background-size: 100% 100%; background-repeat: none">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6 cont">
-                    <h2>Мои достижения</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat</p>
+                    <div class="cont-flex">
+                        <div>
+                            <h2>Мои достижения</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-6 nopaddig">
                     <div class="slider-flex slider-back1">
@@ -511,7 +490,6 @@ Template Name: Главная
             </div>
         </div>
     </section>
-
     <section class="blog">
         <div class="container-fluid">
             <div class="row">
@@ -549,5 +527,4 @@ Template Name: Главная
             </div>
         </div>
     </section>
-
 <?php get_footer(); ?>
