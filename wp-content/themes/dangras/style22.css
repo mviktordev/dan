@@ -280,189 +280,261 @@ button:focus, * {
       display: flex;
       justify-content: center; }
       .bullets .form-block .form.twoform .wpcf7 {
-        background-image: url("img/cyrcle-form.png");
+        background-image: url("img/cyrcle-form2.png");
         background-position: right 52px;
         background-repeat: no-repeat;
         width: 600px; }
-        .bullets .form-block .form.twoform .wpcf7 p {
-          line-height: 21px; }
-          .bullets .form-block .form.twoform .wpcf7 p label {
-            width: 100%;
-            display: inline-block;
-            height: 97px !important;
-            margin-bottom: 0 !important;
-            position: relative;
-            top: 0;
-            transition: all 0.5s ease 0s; }
-            .bullets .form-block .form.twoform .wpcf7 p label:hover {
+        .bullets .form-block .form.twoform .wpcf7 .wpcf7-form {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start; }
+          .bullets .form-block .form.twoform .wpcf7 .wpcf7-form .wpcf7-display-none {
+            display: none; }
+          .bullets .form-block .form.twoform .wpcf7 .wpcf7-form .animate-form {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            height: 345px;
+            justify-content: space-between;
+            margin-right: 0;
+            margin-top: 52px;
+            width: 84px; }
+            .bullets .form-block .form.twoform .wpcf7 .wpcf7-form .animate-form .first-label {
+              width: 100%; }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form .animate-form .first-label .container-animate {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form .animate-form .first-label .container-animate p {
+                  color: #fff;
+                  display: block;
+                  font-family: Oswald-Light, sans-serif;
+                  font-size: 24px;
+                  font-weight: 300;
+                  margin-bottom: 0;
+                  margin-right: 0;
+                  margin-top: 0; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form .animate-form .first-label .container-animate .first-cyrcle {
+                  border: 1px solid #fff;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  width: 41px;
+                  height: 41px;
+                  border-radius: 50%;
+                  margin-right: auto;
+                  box-sizing: border-box; }
+                  .bullets .form-block .form.twoform .wpcf7 .wpcf7-form .animate-form .first-label .container-animate .first-cyrcle .second-cyrcle {
+                    border: 1px solid #fff;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 21px;
+                    height: 21px;
+                    border-radius: 50%; }
+                    .bullets .form-block .form.twoform .wpcf7 .wpcf7-form .animate-form .first-label .container-animate .first-cyrcle .second-cyrcle .third-cyrcle {
+                      height: 11px;
+                      width: 11px;
+                      box-sizing: border-box;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      border-radius: 50%;
+                      background: white;
+                      box-shadow: 0 10px 20px black; }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form .animate-form .first-label.active .third-cyrcle {
+                width: 100% !important;
+                height: 100% !important;
+                box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.2) !important; }
+          .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div {
+            line-height: 21px; }
+            .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label {
+              width: 100%;
+              display: inline-block;
+              height: 97px !important;
+              margin-bottom: 0 !important;
               position: relative;
-              top: 18px;
+              top: 0;
               transition: all 0.5s ease 0s; }
-              .bullets .form-block .form.twoform .wpcf7 p label:hover .text {
-                margin: 0;
-                font-size: 14px;
-                transition: 0.5s all; }
-              .bullets .form-block .form.twoform .wpcf7 p label:hover input {
-                border: 0 solid;
-                color: #ffffff;
-                font-size: 16px;
-                font-weight: 300;
-                height: 50px;
-                margin-top: 25px;
-                opacity: 1;
-                padding-left: 55px;
-                padding-top: 0;
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label:hover {
                 position: relative;
-                transition: all 0.5s ease 0s;
-                z-index: 2;
-                cursor: text; }
-                .bullets .form-block .form.twoform .wpcf7 p label:hover input.name {
-                  background-image: url("img/ico-name.png");
-                  background-position: 21px center;
-                  background-repeat: no-repeat; }
-                .bullets .form-block .form.twoform .wpcf7 p label:hover input.telephone {
-                  background-image: url("img/ico-phone.png");
-                  background-position: 21px center;
-                  background-repeat: no-repeat; }
-                .bullets .form-block .form.twoform .wpcf7 p label:hover input.email {
-                  background-image: url("img/ico-email.png");
-                  background-position: 21px center;
-                  background-repeat: no-repeat; }
-                .bullets .form-block .form.twoform .wpcf7 p label:hover input.city {
-                  background-image: url("img/ico-city.png");
-                  background-position: 21px center;
-                  background-repeat: no-repeat; }
-            .bullets .form-block .form.twoform .wpcf7 p label span.name input.error {
-              background-color: #ff656d;
-              box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
-              height: 50px;
-              background-image: url("img/ico-email.png");
-              margin-top: 25px;
-              font-size: 16px;
-              color: white;
-              padding-left: 55px;
-              position: relative !important;
-              top: 18px !important;
-              transition: all 0.5s ease 0s !important; }
-            .bullets .form-block .form.twoform .wpcf7 p label span.name input.success {
-              background-color: #68c3a3;
-              box-shadow: 0 1px 1px #51a681 inset; }
-            .bullets .form-block .form.twoform .wpcf7 p label span.telephone input.error {
-              background-color: #ff656d;
-              box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
-              height: 50px;
-              background-image: url("img/ico-email.png");
-              margin-top: 25px;
-              font-size: 16px;
-              color: white;
-              padding-left: 55px;
-              position: relative !important;
-              top: 18px !important;
-              transition: all 0.5s ease 0s !important; }
-            .bullets .form-block .form.twoform .wpcf7 p label span.telephone input.success {
-              background-color: #68c3a3;
-              box-shadow: 0 1px 1px #51a681 inset; }
-            .bullets .form-block .form.twoform .wpcf7 p label span.email input.error {
-              background-color: #ff656d;
-              box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
-              height: 50px;
-              background-image: url("img/ico-email.png");
-              margin-top: 25px;
-              font-size: 16px;
-              color: white;
-              padding-left: 55px;
-              position: relative !important;
-              top: 18px !important;
-              transition: all 0.5s ease 0s !important; }
-            .bullets .form-block .form.twoform .wpcf7 p label span.email input.success {
-              background-color: #68c3a3;
-              box-shadow: 0 1px 1px #51a681 inset; }
-            .bullets .form-block .form.twoform .wpcf7 p label span.city input.error {
-              background-color: #ff656d;
-              box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
-              height: 50px;
-              background-image: url("img/ico-email.png");
-              margin-top: 25px;
-              font-size: 16px;
-              color: white;
-              padding-left: 55px;
-              position: relative !important;
-              top: 18px !important;
-              transition: all 0.5s ease 0s !important; }
-            .bullets .form-block .form.twoform .wpcf7 p label span.city input.success {
-              background-color: #68c3a3;
-              box-shadow: 0 1px 1px #51a681 inset;
-              position: relative !important;
-              top: 18px !important;
-              transition: all 0.5s ease 0s !important; }
-            .bullets .form-block .form.twoform .wpcf7 p label span.line {
-              display: none; }
-            .bullets .form-block .form.twoform .wpcf7 p label span.text {
-              color: #ffffff;
-              font-family: Oswald, sans-serif;
-              font-size: 30px;
-              font-weight: 300;
-              margin-top: 34px;
-              position: absolute;
-              transition: 0.5s all; }
-            .bullets .form-block .form.twoform .wpcf7 p label span input {
-              background: #987192;
-              border: 0 solid;
-              border-radius: 5px;
-              color: transparent;
-              cursor: context-menu;
-              font-family: Roboto light, sans-serif;
-              font-size: 0;
-              font-weight: 300;
-              height: 5px;
-              margin: 70px 0 0;
-              opacity: 1;
-              padding-top: 0;
-              width: 450px;
-              box-shadow: 0 2px 1px #85597a inset, 0 1px 0 #e9b8f6;
-              background-position: 21px center;
-              background-repeat: no-repeat; }
-              .bullets .form-block .form.twoform .wpcf7 p label span input::-webkit-input-placeholder {
+                top: 18px;
+                transition: all 0.5s ease 0s; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label:hover .text {
+                  margin: 0;
+                  font-size: 14px;
+                  transition: 0.5s all; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label:hover input {
+                  border: 0 solid;
+                  color: #ffffff;
+                  font-size: 16px;
+                  font-weight: 300;
+                  height: 50px;
+                  margin-top: 25px;
+                  opacity: 1;
+                  padding-left: 55px;
+                  padding-top: 0;
+                  position: relative;
+                  transition: all 0.5s ease 0s;
+                  z-index: 2;
+                  cursor: text; }
+                  .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label:hover input.name {
+                    background-image: url("img/ico-name.png");
+                    background-position: 21px center;
+                    background-repeat: no-repeat; }
+                  .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label:hover input.telephone {
+                    background-image: url("img/ico-phone.png");
+                    background-position: 21px center;
+                    background-repeat: no-repeat; }
+                  .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label:hover input.email {
+                    background-image: url("img/ico-email.png");
+                    background-position: 21px center;
+                    background-repeat: no-repeat; }
+                  .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label:hover input.city {
+                    background-image: url("img/ico-city.png");
+                    background-position: 21px center;
+                    background-repeat: no-repeat; }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.name input.error {
+                background-color: #ff656d;
+                box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
+                height: 50px;
+                background-image: url("img/ico-name-white.png");
+                margin-top: 25px;
+                font-size: 16px;
+                color: white;
+                padding-left: 55px;
+                position: relative !important;
+                top: 18px !important;
+                transition: all 0.5s ease 0s !important; }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.name input.success {
+                background-color: #68c3a3;
+                box-shadow: 0 1px 1px #51a681 inset; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.name input.success:hover {
+                  background-image: url("img/ico-name-white.png"); }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.telephone input.error {
+                background-color: #ff656d;
+                box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
+                height: 50px;
+                background-image: url("img/ico-phone-white.png");
+                margin-top: 25px;
+                font-size: 16px;
+                color: white;
+                padding-left: 55px;
+                position: relative !important;
+                top: 18px !important;
+                transition: all 0.5s ease 0s !important; }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.telephone input.success {
+                background-color: #68c3a3;
+                box-shadow: 0 1px 1px #51a681 inset; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.telephone input.success:hover {
+                  background-image: url("img/ico-phone-white.png"); }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.email input.error {
+                background-color: #ff656d;
+                box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
+                height: 50px;
+                background-image: url("img/ico-email-white.png");
+                margin-top: 25px;
+                font-size: 16px;
+                color: white;
+                padding-left: 55px;
+                position: relative !important;
+                top: 18px !important;
+                transition: all 0.5s ease 0s !important; }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.email input.success {
+                background-color: #68c3a3;
+                box-shadow: 0 1px 1px #51a681 inset; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.email input.success:hover {
+                  background-image: url("img/ico-email-white.png"); }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.city input.error {
+                background-color: #ff656d;
+                box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
+                height: 50px;
+                background-image: url("img/ico-city-white.png");
+                margin-top: 25px;
+                font-size: 16px;
+                color: white;
+                padding-left: 55px;
+                position: relative !important;
+                top: 18px !important;
+                transition: all 0.5s ease 0s !important; }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.city input.success {
+                background-color: #68c3a3;
+                box-shadow: 0 1px 1px #51a681 inset;
+                position: relative !important;
+                top: 18px !important;
+                transition: all 0.5s ease 0s !important; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.city input.success:hover {
+                  background-image: url("img/ico-city-white.png"); }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.line {
+                display: none; }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span.text {
+                color: #ffffff;
+                font-family: Oswald, sans-serif;
+                font-size: 30px;
+                font-weight: 300;
+                margin-top: 34px;
+                position: absolute;
+                transition: 0.5s all; }
+              .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span input {
+                background: #987192;
+                border: 0 solid;
+                border-radius: 5px;
+                color: transparent;
+                cursor: context-menu;
+                font-family: Roboto light, sans-serif;
+                font-size: 0;
+                font-weight: 300;
+                height: 5px;
+                margin: 70px 0 0;
                 opacity: 1;
-                transition: opacity 0.3s ease;
-                color: #c3adc3; }
-              .bullets .form-block .form.twoform .wpcf7 p label span input::-moz-placeholder {
-                opacity: 1;
-                transition: opacity 0.3s ease;
-                color: #c3adc3; }
-              .bullets .form-block .form.twoform .wpcf7 p label span input:-moz-placeholder {
-                opacity: 1;
-                transition: opacity 0.3s ease;
-                color: #c3adc3; }
-              .bullets .form-block .form.twoform .wpcf7 p label span input:-ms-input-placeholder {
-                opacity: 1;
-                transition: opacity 0.3s ease;
-                color: #c3adc3; }
-              .bullets .form-block .form.twoform .wpcf7 p label span input:focus::-webkit-input-placeholder {
-                opacity: 0;
-                color: #fff;
-                transition: opacity 0.3s ease; }
-              .bullets .form-block .form.twoform .wpcf7 p label span input:focus::-moz-placeholder {
-                opacity: 0;
-                color: #fff;
-                transition: opacity 0.3s ease; }
-              .bullets .form-block .form.twoform .wpcf7 p label span input:focus:-moz-placeholder {
-                opacity: 0;
-                color: #fff;
-                transition: opacity 0.3s ease; }
-              .bullets .form-block .form.twoform .wpcf7 p label span input:focus:-ms-input-placeholder {
-                opacity: 0;
-                transition: opacity 0.3s ease; }
-        .bullets .form-block .form.twoform .wpcf7 input.wpcf7-submit {
-          cursor: pointer; }
-        .bullets .form-block .form.twoform .wpcf7 .line-button {
-          height: 5px;
-          background: white;
-          display: inline-block;
-          width: 450px;
-          border-radius: 5px;
-          margin-top: 53px;
-          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.18); }
+                padding-top: 0;
+                width: 450px;
+                box-shadow: 0 2px 1px #85597a inset, 0 1px 0 #e9b8f6;
+                background-position: 21px center;
+                background-repeat: no-repeat; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span input::-webkit-input-placeholder {
+                  opacity: 1;
+                  transition: opacity 0.3s ease;
+                  color: #c3adc3; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span input::-moz-placeholder {
+                  opacity: 1;
+                  transition: opacity 0.3s ease;
+                  color: #c3adc3; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span input:-moz-placeholder {
+                  opacity: 1;
+                  transition: opacity 0.3s ease;
+                  color: #c3adc3; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span input:-ms-input-placeholder {
+                  opacity: 1;
+                  transition: opacity 0.3s ease;
+                  color: #c3adc3; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span input:focus::-webkit-input-placeholder {
+                  opacity: 0;
+                  color: #fff;
+                  transition: opacity 0.3s ease; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span input:focus::-moz-placeholder {
+                  opacity: 0;
+                  color: #fff;
+                  transition: opacity 0.3s ease; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span input:focus:-moz-placeholder {
+                  opacity: 0;
+                  color: #fff;
+                  transition: opacity 0.3s ease; }
+                .bullets .form-block .form.twoform .wpcf7 .wpcf7-form div label span input:focus:-ms-input-placeholder {
+                  opacity: 0;
+                  transition: opacity 0.3s ease; }
+          .bullets .form-block .form.twoform .wpcf7 .wpcf7-form input.wpcf7-submit {
+            cursor: pointer; }
+          .bullets .form-block .form.twoform .wpcf7 .wpcf7-form .line-button {
+            height: 5px;
+            background: white;
+            display: inline-block;
+            width: 450px;
+            border-radius: 5px;
+            margin-top: 53px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.18); }
 
 .hover {
   position: relative !important;
@@ -487,13 +559,13 @@ button:focus, * {
     z-index: 2 !important;
     cursor: text !important; }
   .hover .name input.name {
-    background-image: url("img/ico-name.png") !important; }
+    background-image: url("img/ico-name-white.png") !important; }
   .hover .telephone input.telephone {
-    background-image: url("img/ico-phone.png") !important; }
+    background-image: url("img/ico-phone-white.png") !important; }
   .hover .email input.email {
-    background-image: url("img/ico-email.png") !important; }
+    background-image: url("img/ico-email-white.png") !important; }
   .hover .city input.city {
-    background-image: url("img/ico-city.png") !important; }
+    background-image: url("img/ico-city-white.png") !important; }
 
 span.active {
   margin: 0 !important;
@@ -524,7 +596,7 @@ span.active {
   display: inline;
   float: right;
   height: 12px !important;
-  left: -154px;
+  left: -20px;
   line-height: 6;
   margin-top: 0;
   position: relative;
@@ -709,5 +781,9 @@ span.active {
   background-size: cover; }
   .presentation h1 {
     text-align: center; }
+
+.cooperation-block {
+  height: 100%;
+  width: 100%; }
 
 /*# sourceMappingURL=style22.css.map */

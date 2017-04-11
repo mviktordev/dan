@@ -72,18 +72,27 @@ $(document).on('ready', function () {
         autoplaySpeed: 2000,
         variableWidth: true
     });
+    $('.cooperation-slider').slick({
+        infinite: true,
+        dots: false,
+        slidesToShow: 1,
+        arrows: false
+    });
 
     $('#slide-1').on('click', function () {
         var slideIndex = $(this).index();
         $('#what-we-do').slick('slickGoTo', 0);
+        $('.cooperation-slider').slick('slickGoTo', 0);
     });
     $('#slide-2').on('click', function () {
         var slideIndex = $(this).index();
         $('#what-we-do').slick('slickGoTo', 1);
+        $('.cooperation-slider').slick('slickGoTo', 1);
     });
     $('#slide-3').on('click', function () {
         var slideIndex = $(this).index();
         $('#what-we-do').slick('slickGoTo', 2);
+        $('.cooperation-slider').slick('slickGoTo', 2);
     });
     $('#slide-4').on('click', function () {
         var slideIndex = $(this).index();
@@ -158,4 +167,32 @@ $(document).on('ready', function () {
             $('this').css('color', 'black')
         }
     )
+
+    $('.name input').focus(function () {
+        $('.first-label:nth-child(1)').addClass('active');
+    });
+    $('.name input').blur(function () {
+        $('.first-label:nth-child(1)').removeClass('active');
+    });
+
+    $('.telephone input').focus(function () {
+        $('.first-label:nth-child(2)').addClass('active');
+    });
+    $('.telephone input').blur(function () {
+        $('.first-label:nth-child(2)').removeClass('active');
+    });
+
+    $('.email input').focus(function () {
+        $('.first-label:nth-child(3)').addClass('active');
+    });
+    $('.email input').blur(function () {
+        $('.first-label:nth-child(3)').removeClass('active');
+    });
+
+    $('.city input').focus(function () {
+        $('.first-label:nth-child(4)').addClass('active');
+    });
+    $('.city input').blur(function () {
+        $('.first-label:nth-child(4)').removeClass('active');
+    });
 });

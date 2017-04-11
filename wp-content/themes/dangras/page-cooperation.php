@@ -33,7 +33,8 @@ Template Name: Cooperation-page
                         </div>
 
                         <a href="#second-scr" class="mouse">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/shop-page/mouse.png"" alt="" width="16px" height="24px">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/shop-page/mouse.png"" alt=""
+                            width="16px" height="24px">
                         </a>
 
                     </div>
@@ -46,8 +47,9 @@ Template Name: Cooperation-page
 <section class="other-inf" id="second-scr">
     <div class="container-fluid">
         <div class="row">
-            <div class=" oth-items content"  ">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 other-item other-it-1 yel-it" >
+            <div class=" oth-items content"
+            ">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 other-item other-it-1 yel-it">
                 <span class="circle">1</span>
                 <h3 class="yel-it">Lorem ipsun</h3>
                 <p>Организация выездного <br>
@@ -93,16 +95,17 @@ Template Name: Cooperation-page
                     от <span class="red">100 000</span> ежемесячно</h1>
                 <p style="font-size: 24px">Кто станет вашим клиентом?</p>
                 <div class="arrow-bot">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/arr-b.png"" alt="" width="18px" height="22px">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/arr-b.png"" alt=""
+                    width="18px" height="22px">
                 </div>
             </div>
 
             <div class="col-12 numbers" style=" min-height: 350px; height: 50vh">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 numb1" ><p class="numb-p">Частные
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 numb1"><p class="numb-p">Частные
                         <br>мастера </p></div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 numb2" ><p class="numb-p">Шеллак
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 numb2"><p class="numb-p">Шеллак
                     </p></div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 numb3" ><p class="numb-p">Клиенты
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 numb3"><p class="numb-p">Клиенты
                         <br> ногтевого <br>сервиса</p></div>
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 numb4"><p class="numb-p">Розничные
                         <br>магазины</p></div>
@@ -119,17 +122,26 @@ Template Name: Cooperation-page
 <section class="organization">
     <div class="container-fluid">
         <div class="row rever">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/coop-page/bg-org.png); background-size: cover; height: 600px; margin: 0; padding: 0;">
-
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nopadding">
+                <div class="cooperation-block">
+                    <div class="cooperation-slider">
+                        <div style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/coop-page/cp-01.png); background-size: cover; height: 600px; margin: 0; padding: 0;">
+                        </div>
+                        <div style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/coop-page/cp-02.png); background-size: cover; height: 600px; margin: 0; padding: 0;">
+                        </div>
+                        <div style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/coop-page/cp-03.png); background-size: cover; height: 600px; margin: 0; padding: 0;">
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="height: 600px; margin: 0; padding: 0;">
                 <div class="content right">
                     <h1>Организуйте мероприятие в <br> своем городе на выгодных <br> условиях</h1>
                     <p>Для успешной организации нужно <br> всего 3 условия </p>
                     <ul>
-                        <li>Помещение</li>
-                        <li>Оборудование</li>
-                        <li>Клиенты</li>
+                        <li id="slide-1">Помещение</li>
+                        <li id="slide-2">Оборудование</li>
+                        <li id="slide-3">Клиенты</li>
                     </ul>
                 </div>
             </div>
@@ -143,15 +155,17 @@ Template Name: Cooperation-page
             <div class="col-12 train" style=" ">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 trainn"style="margin: 0; padding: 0;">
-                            <h1 class="col-lg-6 col-md-6 col-sm-12 col-xs-12 train-item tilte">Обучайте мастеров ногтевого <br>
+                        <div class="col-12 trainn" style="margin: 0; padding: 0;">
+                            <h1 class="col-lg-6 col-md-6 col-sm-12 col-xs-12 train-item tilte">Обучайте мастеров
+                                ногтевого <br>
                                 сервиса самостоятельно от <br>
                                 моего имени
                             </h1>
 
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 train-item">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/ic-1-train.png"" alt="" >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/ic-1-train.png""
+                                alt="" >
                                 <div class="decr">
                                     <h1>Обучение</h1>
                                     <p>Я обучаю вас, и организовываю <br>
@@ -161,7 +175,8 @@ Template Name: Cooperation-page
 
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 train-item">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/ic-2-train.png"" alt="" >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/ic-2-train.png""
+                                alt="" >
                                 <div class="decr">
                                     <h1>Преподавание</h1>
                                     <p>Обучаете самостоятельно моим <br>
@@ -172,7 +187,8 @@ Template Name: Cooperation-page
 
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 train-item">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/ic-3-train.png"" alt="" >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/ic-3-train.png""
+                                alt="" >
                                 <div class="decr">
                                     <h1>Сбор группы</h1>
                                     <p>Вы собираете группу <br>
@@ -183,7 +199,8 @@ Template Name: Cooperation-page
 
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 train-item">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/ic-4-train.png"" alt="" >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/ic-4-train.png""
+                                alt="" >
                                 <div class="decr">
                                     <h1>Партнёрство</h1>
                                     <p>Определяем партнерские <br>
@@ -193,7 +210,8 @@ Template Name: Cooperation-page
 
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 train-item">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/ic-5-train.png"" alt="" >
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/coop-page/ic-5-train.png""
+                                alt="" >
                                 <div class="decr">
                                     <h1>Зарабатываем</h1>
                                     <p>Зарабатываем и развиваемся <br>
@@ -215,3 +233,18 @@ Template Name: Cooperation-page
         </div>
     </div>
 </section>
+
+<?php get_footer(); ?>
+
+<div>
+    <div>
+        <div>
+            <div>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <p></p>
+    </div>
+</div>

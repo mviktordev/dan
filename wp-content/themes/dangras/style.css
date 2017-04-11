@@ -2274,7 +2274,7 @@ section.biography .second .line {
 
 section.biography .first, section.biography .second {
     /*min-height: 100vh;*/
-    height: 600px;
+    height: 700px;
     max-height: 100%;
     background-repeat: no-repeat;
 

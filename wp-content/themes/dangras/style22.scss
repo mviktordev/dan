@@ -296,7 +296,7 @@ button:focus, * {
 
 .bullets {
   height: 1450px;
-  background: rgba(0, 0, 0, 0) url("img/bg-bullet.png") no-repeat scroll center top / cover ;
+  background: rgba(0, 0, 0, 0) url("img/bg-bullet.png") no-repeat scroll center top / cover;
   .col-6 {
     height: 250px;
     padding-right: 30px;
@@ -366,232 +366,324 @@ button:focus, * {
         display: flex;
         justify-content: center;
         .wpcf7 {
-          background-image: url("img/cyrcle-form.png");
+          background-image: url("img/cyrcle-form2.png");
           background-position: right 52px;
           background-repeat: no-repeat;
           width: 600px;
-          p {
-            line-height: 21px;
-            label {
-              width: 100%;
-              display: inline-block;
-              height: 97px !important;
-              margin-bottom: 0 !important;
-              position: relative;
-              top: 0;
-              transition: all 0.5s ease 0s;
-              &:hover {
-                position: relative;
-                top: 18px;
-                transition: all 0.5s ease 0s;
-                & .text {
-                  margin: 0;
-                  font-size: 14px;
-                  transition: 0.5s all;
+          .wpcf7-form {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            .wpcf7-display-none {
+              display: none;
+            }
+
+            .animate-form {
+              align-items: flex-start;
+              display: flex;
+              flex-direction: column;
+              height: 345px;
+              justify-content: space-between;
+              margin-right: 0;
+              margin-top: 52px;
+              width: 84px;
+              .first-label {
+                width: 100%;
+                .container-animate {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  width: 100%;
+                  p {
+                    color: #fff;
+                    display: block;
+                    font-family: Oswald-Light, sans-serif;
+                    font-size: 24px;
+                    font-weight: 300;
+                    margin-bottom: 0;
+                    margin-right: 0;
+                    margin-top: 0;
+                  }
+                  .first-cyrcle {
+                    border: 1px solid #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 41px;
+                    height: 41px;
+                    border-radius: 50%;
+                    margin-right: auto;
+                    box-sizing: border-box;
+                    .second-cyrcle {
+                      border: 1px solid #fff;
+                      box-sizing: border-box;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      width: 21px;
+                      height: 21px;
+                      border-radius: 50%;
+                      .third-cyrcle {
+                        height: 11px;
+                        width: 11px;
+                        box-sizing: border-box;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        background: white;
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+                      }
+
+                    }
+                  }
                 }
-                & input {
-                  border: 0 solid;
-                  color: #ffffff;
-                  font-size: 16px;
-                  font-weight: 300;
-                  height: 50px;
-                  margin-top: 25px;
-                  opacity: 1;
-                  padding-left: 55px;
-                  padding-top: 0;
+                &.active {
+                  .third-cyrcle {
+                    width: 100% !important;
+                    height: 100% !important;
+                    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.2) !important;
+                  }
+                }
+              }
+            }
+            div {
+              line-height: 21px;
+              label {
+                width: 100%;
+                display: inline-block;
+                height: 97px !important;
+                margin-bottom: 0 !important;
+                position: relative;
+                top: 0;
+                transition: all 0.5s ease 0s;
+                &:hover {
                   position: relative;
+                  top: 18px;
                   transition: all 0.5s ease 0s;
-                  z-index: 2;
-                  cursor: text;
+                  & .text {
+                    margin: 0;
+                    font-size: 14px;
+                    transition: 0.5s all;
+                  }
+                  & input {
+                    border: 0 solid;
+                    color: #ffffff;
+                    font-size: 16px;
+                    font-weight: 300;
+                    height: 50px;
+                    margin-top: 25px;
+                    opacity: 1;
+                    padding-left: 55px;
+                    padding-top: 0;
+                    position: relative;
+                    transition: all 0.5s ease 0s;
+                    z-index: 2;
+                    cursor: text;
+                    &.name {
+                      background-image: url("img/ico-name.png");
+                      background-position: 21px center;
+                      background-repeat: no-repeat;
+                    }
+                    &.telephone {
+                      background-image: url("img/ico-phone.png");
+                      background-position: 21px center;
+                      background-repeat: no-repeat;
+                    }
+                    &.email {
+                      background-image: url("img/ico-email.png");
+                      background-position: 21px center;
+                      background-repeat: no-repeat;
+                    }
+                    &.city {
+                      background-image: url("img/ico-city.png");
+                      background-position: 21px center;
+                      background-repeat: no-repeat;
+                    }
+                  }
+                }
+
+                span {
                   &.name {
-                    background-image: url("img/ico-name.png");
-                    background-position: 21px center;
-                    background-repeat: no-repeat;
+                    input.error {
+                      background-color: #ff656d;
+                      box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
+                      height: 50px;
+                      background-image: url("img/ico-name-white.png");
+                      margin-top: 25px;
+                      font-size: 16px;
+                      color: white;
+                      padding-left: 55px;
+                      position: relative !important;
+                      top: 18px !important;
+                      transition: all 0.5s ease 0s !important;
+                    }
+                    input.success {
+                      background-color: #68c3a3;
+                      box-shadow: 0 1px 1px #51a681 inset;
+                      &:hover {
+                        background-image: url("img/ico-name-white.png");
+                      }
+                    }
                   }
                   &.telephone {
-                    background-image: url("img/ico-phone.png");
-                    background-position: 21px center;
-                    background-repeat: no-repeat;
+                    input.error {
+                      background-color: #ff656d;
+                      box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
+                      height: 50px;
+                      background-image: url("img/ico-phone-white.png");
+                      margin-top: 25px;
+                      font-size: 16px;
+                      color: white;
+                      padding-left: 55px;
+                      position: relative !important;
+                      top: 18px !important;
+                      transition: all 0.5s ease 0s !important;
+                    }
+                    input.success {
+                      background-color: #68c3a3;
+                      box-shadow: 0 1px 1px #51a681 inset;
+                      &:hover {
+                        background-image: url("img/ico-phone-white.png");
+                      }
+
+                    }
                   }
                   &.email {
-                    background-image: url("img/ico-email.png");
-                    background-position: 21px center;
-                    background-repeat: no-repeat;
+                    input.error {
+                      background-color: #ff656d;
+                      box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
+                      height: 50px;
+                      background-image: url("img/ico-email-white.png");
+                      margin-top: 25px;
+                      font-size: 16px;
+                      color: white;
+                      padding-left: 55px;
+                      position: relative !important;
+                      top: 18px !important;
+                      transition: all 0.5s ease 0s !important;
+                    }
+                    input.success {
+                      background-color: #68c3a3;
+                      box-shadow: 0 1px 1px #51a681 inset;
+                      &:hover {
+                        background-image: url("img/ico-email-white.png");
+                      }
+
+                    }
                   }
                   &.city {
-                    background-image: url("img/ico-city.png");
+                    input.error {
+                      background-color: #ff656d;
+                      box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
+                      height: 50px;
+                      background-image: url("img/ico-city-white.png");
+                      margin-top: 25px;
+                      font-size: 16px;
+                      color: white;
+                      padding-left: 55px;
+                      position: relative !important;
+                      top: 18px !important;
+                      transition: all 0.5s ease 0s !important;
+                    }
+                    input.success {
+                      background-color: #68c3a3;
+                      box-shadow: 0 1px 1px #51a681 inset;
+                      position: relative !important;
+                      top: 18px !important;
+                      transition: all 0.5s ease 0s !important;
+                      &:hover {
+                        background-image: url("img/ico-city-white.png");
+                      }
+                    }
+                  }
+                  &.line {
+                    display: none;
+                  }
+                  &.text {
+                    color: #ffffff;
+                    font-family: Oswald, sans-serif;
+                    font-size: 30px;
+                    font-weight: 300;
+                    margin-top: 34px;
+                    position: absolute;
+                    transition: 0.5s all;
+                  }
+                  input {
+                    background: #987192;
+                    border: 0 solid;
+                    border-radius: 5px;
+                    color: rgba(0, 0, 0, 0);
+                    cursor: context-menu;
+                    font-family: Roboto light, sans-serif;
+                    font-size: 0;
+                    font-weight: 300;
+                    height: 5px;
+                    margin: 70px 0 0;
+                    opacity: 1;
+                    padding-top: 0;
+                    width: 450px;
+                    box-shadow: 0 2px 1px #85597a inset, 0 1px 0 #e9b8f6;
                     background-position: 21px center;
                     background-repeat: no-repeat;
+                    &::-webkit-input-placeholder {
+                      opacity: 1;
+                      transition: opacity 0.3s ease;
+                      color: #c3adc3;
+                    }
+                    &::-moz-placeholder {
+                      opacity: 1;
+                      transition: opacity 0.3s ease;
+                      color: #c3adc3;
+                    }
+                    &:-moz-placeholder {
+                      opacity: 1;
+                      transition: opacity 0.3s ease;
+                      color: #c3adc3;
+                    }
+                    &:-ms-input-placeholder {
+                      opacity: 1;
+                      transition: opacity 0.3s ease;
+                      color: #c3adc3;
+                    }
+                    &:focus::-webkit-input-placeholder {
+                      opacity: 0;
+                      color: #fff;
+                      transition: opacity 0.3s ease;
+                    }
+                    &:focus::-moz-placeholder {
+                      opacity: 0;
+                      color: #fff;
+                      transition: opacity 0.3s ease;
+                    }
+                    &:focus:-moz-placeholder {
+                      opacity: 0;
+                      color: #fff;
+                      transition: opacity 0.3s ease;
+                    }
+                    &:focus:-ms-input-placeholder {
+                      opacity: 0;
+                      transition: opacity 0.3s ease;
+                    }
+                  }
+                  br {
                   }
                 }
-              }
 
-              span {
-                &.name {
-                  input.error {
-                    background-color: #ff656d;
-                    box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
-                    height: 50px;
-                    background-image: url("img/ico-email.png");
-                    margin-top: 25px;
-                    font-size: 16px;
-                    color: white;
-                    padding-left: 55px;
-                    position: relative !important;
-                    top: 18px !important;
-                    transition: all 0.5s ease 0s !important;
-                  }
-                  input.success {
-                    background-color: #68c3a3;
-                    box-shadow: 0 1px 1px #51a681 inset;
-                  }
-                }
-                &.telephone {
-                  input.error {
-                    background-color: #ff656d;
-                    box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
-                    height: 50px;
-                    background-image: url("img/ico-email.png");
-                    margin-top: 25px;
-                    font-size: 16px;
-                    color: white;
-                    padding-left: 55px;
-                    position: relative !important;
-                    top: 18px !important;
-                    transition: all 0.5s ease 0s !important;
-                  }
-                  input.success {
-                    background-color: #68c3a3;
-                    box-shadow: 0 1px 1px #51a681 inset;
-                  }
-                }
-                &.email {
-                  input.error {
-                    background-color: #ff656d;
-                    box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
-                    height: 50px;
-                    background-image: url("img/ico-email.png");
-                    margin-top: 25px;
-                    font-size: 16px;
-                    color: white;
-                    padding-left: 55px;
-                    position: relative !important;
-                    top: 18px !important;
-                    transition: all 0.5s ease 0s !important;
-                  }
-                  input.success {
-                    background-color: #68c3a3;
-                    box-shadow: 0 1px 1px #51a681 inset;
-                  }
-                }
-                &.city {
-                  input.error {
-                    background-color: #ff656d;
-                    box-shadow: 0 1px 1px #e54e55 inset, 0 -1px 0 #f8c8ff inset;
-                    height: 50px;
-                    background-image: url("img/ico-email.png");
-                    margin-top: 25px;
-                    font-size: 16px;
-                    color: white;
-                    padding-left: 55px;
-                    position: relative !important;
-                    top: 18px !important;
-                    transition: all 0.5s ease 0s !important;
-                  }
-                  input.success {
-                    background-color: #68c3a3;
-                    box-shadow: 0 1px 1px #51a681 inset;
-                    position: relative !important;
-                    top: 18px !important;
-                    transition: all 0.5s ease 0s !important;
-                  }
-                }
-                &.line {
-                  display: none;
-                }
-                &.text {
-                  color: #ffffff;
-                  font-family: Oswald, sans-serif;
-                  font-size: 30px;
-                  font-weight: 300;
-                  margin-top: 34px;
-                  position: absolute;
-                  transition: 0.5s all;
-                }
-                input {
-                  background: #987192;
-                  border: 0 solid;
-                  border-radius: 5px;
-                  color: rgba(0, 0, 0, 0);
-                  cursor: context-menu;
-                  font-family: Roboto light, sans-serif;
-                  font-size: 0;
-                  font-weight: 300;
-                  height: 5px;
-                  margin: 70px 0 0;
-                  opacity: 1;
-                  padding-top: 0;
-                  width: 450px;
-                  box-shadow: 0 2px 1px #85597a inset, 0 1px 0 #e9b8f6;
-                  background-position: 21px center;
-                  background-repeat: no-repeat;
-                  &::-webkit-input-placeholder {
-                    opacity: 1;
-                    transition: opacity 0.3s ease;
-                    color: #c3adc3;
-                  }
-                  &::-moz-placeholder {
-                    opacity: 1;
-                    transition: opacity 0.3s ease;
-                    color: #c3adc3;
-                  }
-                  &:-moz-placeholder {
-                    opacity: 1;
-                    transition: opacity 0.3s ease;
-                    color: #c3adc3;
-                  }
-                  &:-ms-input-placeholder {
-                    opacity: 1;
-                    transition: opacity 0.3s ease;
-                    color: #c3adc3;
-                  }
-                  &:focus::-webkit-input-placeholder {
-                    opacity: 0;
-                    color: #fff;
-                    transition: opacity 0.3s ease;
-                  }
-                  &:focus::-moz-placeholder {
-                    opacity: 0;
-                    color: #fff;
-                    transition: opacity 0.3s ease;
-                  }
-                  &:focus:-moz-placeholder {
-                    opacity: 0;
-                    color: #fff;
-                    transition: opacity 0.3s ease;
-                  }
-                  &:focus:-ms-input-placeholder {
-                    opacity: 0;
-                    transition: opacity 0.3s ease;
-                  }
-                }
-                br {
-                }
               }
-
             }
-          }
-          input.wpcf7-submit {
-            cursor: pointer;
-          }
-          .line-button {
-            height: 5px;
-            background: white;
-            display: inline-block;
-            width: 450px;
-            border-radius: 5px;
-            margin-top: 53px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.18);
+            input.wpcf7-submit {
+              cursor: pointer;
+            }
+            .line-button {
+              height: 5px;
+              background: white;
+              display: inline-block;
+              width: 450px;
+              border-radius: 5px;
+              margin-top: 53px;
+              box-shadow: 0 5px 20px rgba(0, 0, 0, 0.18);
+            }
           }
         }
       }
@@ -625,22 +717,22 @@ button:focus, * {
   }
   .name {
     input.name {
-      background-image: url("img/ico-name.png") !important;
+      background-image: url("img/ico-name-white.png") !important;
     }
   }
   .telephone {
     input.telephone {
-      background-image: url("img/ico-phone.png") !important;
+      background-image: url("img/ico-phone-white.png") !important;
     }
   }
   .email {
     input.email {
-      background-image: url("img/ico-email.png") !important;
+      background-image: url("img/ico-email-white.png") !important;
     }
   }
   .city {
     input.city {
-      background-image: url("img/ico-city.png") !important;
+      background-image: url("img/ico-city-white.png") !important;
     }
   }
 }
@@ -688,7 +780,7 @@ span {
     display: inline;
     float: right;
     height: 12px !important;
-    left: -154px;
+    left: -20px;
     line-height: 6;
     margin-top: 0;
     position: relative;
@@ -932,4 +1024,9 @@ span {
 
     text-align: center;
   }
+}
+
+.cooperation-block {
+  height: 100%;
+  width: 100%;
 }
